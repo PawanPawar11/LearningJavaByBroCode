@@ -1,32 +1,51 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+//        Arithmetic Operators
+//        int x = 10;
+//        int y = 2;
+//        int z;
+//
+//        System.out.println(x + y);
+//        System.out.println(x - y);
+//        System.out.println(x * y);
+//        System.out.println(x / y);
+//        System.out.println(x % y);
 
-        String character;
-        int number;
-        String saysSomething;
-        boolean trueOrFalse;
+//        Augmented Assignment Operator
+//        int x = 10;
+//        int y = 2;
+//
+//        x += y;
+//        x -= y;
+//        x *= y;
+//        x /= y;
+//        x %= y;
+//        System.out.println(x);
 
-        System.out.print("Enter a character (name): ");
-        character = scanner.nextLine();
+//        Increment and Decrement Operator
+//        int x = 1;
+//        x++;
+//        x++;
+//        x++;
+//
+//        x--;
+//        x--;
+//        System.out.println(x);
 
-        System.out.print("Enter a number: ");
-        number = scanner.nextInt();
-        scanner.nextLine(); // Clear the buffer
-
-        System.out.print("Enter something the character says: ");
-        saysSomething = scanner.nextLine();
-
-        System.out.print("Did it really happen? (true/false): ");
-        trueOrFalse = scanner.nextBoolean();
-
-        System.out.println("\nOne morning, " + character + " went for a walk.");
-        System.out.println("They found " + number + " small boxes under a tree.");
-        System.out.println(saysSomething + "!" + " they said.");
-        System.out.println("A dog nearby started barking loudly.");
-        System.out.println("Was all of this real? " + trueOrFalse + ".");
-        System.out.println("It was a strange day.");
+//        ORDER OF OPERATION (P-E-M-D-A-S)
+//        Please Excuse My Dear Aunt Sally
+//        Please Excuse My Dope Ass Swag 🤣
+//        P -> Parentheses
+//        E -> Exponent
+//        M -> Multiplication
+//        D -> Division
+//        A -> Addition
+//        S -> Subtraction
+//        double result = 3 + 4 * (7 - 5) / 2.0;
+//        // 3 + 4 * (2) / 2.0
+//        // 3 + 8 / 2.0
+//        // 3 + 4.0
+//        // 7.0
+//        System.out.println(result);
     }
 }
